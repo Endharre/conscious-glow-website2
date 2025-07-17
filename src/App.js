@@ -18,7 +18,6 @@ const ConsciousGlowLanding = () => {
 
   const handleSubmit = () => {
     if (email.length > 0 && email.includes("@")) {
-      // Hier würdest du später deine Email-Marketing Integration einbauen
       setIsSubscribed(true);
       setTimeout(() => setIsSubscribed(false), 3000);
     }
